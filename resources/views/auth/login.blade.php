@@ -1,7 +1,7 @@
 @extends('layouts.form')
 
 
-@section('title','Iniciar sesión')
+@section('title','Comienze la experiencia')
     
 
 @section('content')
@@ -21,7 +21,7 @@
                             </div>
                         @else
                             <div class="text-center text-muted mb-4">
-                                <small>Ingrese sus credenciales para entrar al Sistema</small>
+                                <small>Valide sus creedenciales para INICIAR</small>
                             </div>
                         @endif
 
@@ -53,7 +53,7 @@
                                 </label>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary my-4">Empezar</button>
+                                <button type="submit" class="btn btn-primary my-4">Comenzemos</button>
                             </div>
                         </form>
                     </div>
