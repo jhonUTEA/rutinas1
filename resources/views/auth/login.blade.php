@@ -21,7 +21,7 @@
                             </div>
                         @else
                             <div class="text-center text-muted mb-4">
-                                <small>Valide sus creedenciales para INICIAR</small>
+                                <small>Valide sus creedenciales para COMENZAR</small>
                             </div>
                         @endif
 
