@@ -6,7 +6,7 @@
         <div class="card-header border-0">
           <div class="row align-items-center">
             <div class="col">
-              <h3 class="mb-0">Nueva Rutina</h3>
+              <h3 class="mb-0">Nueva Tarea Pendiente</h3>
             </div>
             <div class="col text-right">
               <a href="{{ url('/rutinas')}}" class="btn btn-sm btn-success">
@@ -32,15 +32,15 @@
             <form action="{{ url('/rutinas')}}" method="POST">
                 @csrf
                 <div class="form-group">
-                    <label for="Descripcion_rutina">Nombre de la Rutina</label>
+                    <label for="Descripcion_rutina">Describe la tarea pendiente :</label>
                     <input type="text" name="Descripcion_rutina" class="form-control" value="{{old('Descripcion_rutina')}}"  required>
                 </div>
 
                 <div class="form-group">
-                    <label for="Vence_rutina">Vencimiento de Rutina</label>
+                    <label for="Vence_rutina">Agenda la fecha :</label>
                     <input type="date" name="Vence_rutina" class="form-control" value="{{old('Vence_rutina')}}">
                 </div>
-                <button type="submit" class="btn btn-sm btn-primary">Guardar Rutina</button>
+                <button type="submit" class="btn btn-sm btn-primary">Guardar Tarea</button>
             </form>
         </div>
       </div>
