@@ -101,6 +101,13 @@
         <i class="fas fa-archive text-blue"></i> Agregar Tarea
 </a>
 </li>
+
+<li class="nav-item">
+  <a href="{{ url('/rutinas')}}" class="nav-link ">
+      <span class="pcoded-micon"><i class="fas fa-receipt"></i>
+      </span><span class="pcoded-mtext">Listar rutinas</span>
+  </a>
+</li>
       </div>
     </div>
   </nav>
