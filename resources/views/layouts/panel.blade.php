@@ -105,7 +105,7 @@
 <li class="nav-item">
   <a href="{{ url('/rutinas')}}" class="nav-link ">
       <span class="pcoded-micon"><i class="fas fa-receipt"></i>
-      </span><span class="pcoded-mtext">Listar rutinas</span>
+      </span><span class="pcoded-mtext">Listar Tareas Pendientes</span>
   </a>
 </li>
       </div>
